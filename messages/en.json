@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "clients": "Clients",
+    "properties": "Properties",
+    "integrations": "Integrations",
+    "signOut": "Sign Out"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Welcome back. Here's your activity overview.",
+    "stats": {
+      "activeClients": "Active Clients",
+      "followUpsThisWeek": "Follow-ups This Week",
+      "availableListings": "Available Listings",
+      "closedDeals": "Closed Deals"
+    },
+    "reminders": {
+      "title": "Today's Follow-ups",
+      "empty": "No follow-ups scheduled for today.",
+      "call": "Call",
+      "email": "Email",
+      "showing": "Showing",
+      "offer": "Offer",
+      "note": "Note"
+    },
+    "matches": {
+      "title": "Smart Matches",
+      "subtitle": "Clients matched to available listings",
+      "budget": "Budget",
+      "area": "Area",
+      "viewClient": "View Client",
+      "empty": "No matches found. Add clients with preferences to see matches."
+    }
+  },
+  "clients": {
+    "title": "Clients",
+    "subtitle": "Manage your client relationships and track interactions.",
+    "addClient": "Add Client",
+    "search": "Search clients...",
+    "filter": "Filter",
+    "all": "All",
+    "active": "Active",
+    "pending": "Pending",
+    "closed": "Closed",
+    "table": {
+      "name": "Name",
+      "contact": "Contact",
+      "budget": "Budget",
+      "area": "Preferred Area",
+      "status": "Status",
+      "followUp": "Next Follow-up",
+      "actions": "Actions"
+    },
+    "form": {
+      "addTitle": "Add New Client",
+      "editTitle": "Edit Client",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "budgetMin": "Min Budget ($)",
+      "budgetMax": "Max Budget ($)",
+      "preferredAreas": "Preferred Areas",
+      "areasPlaceholder": "e.g. Downtown, Midtown, Upper East Side",
+      "status": "Status",
+      "followUpDate": "Next Follow-up Date",
+      "save": "Save Client",
+      "cancel": "Cancel"
+    },
+    "detail": {
+      "contactInfo": "Contact Information",
+      "preferences": "Preferences",
+      "timeline": "Activity Timeline",
+      "addEvent": "Log Activity",
+      "budget": "Budget Range",
+      "areas": "Preferred Areas",
+      "nextFollowUp": "Next Follow-up"
+    },
+    "events": {
+      "type": "Activity Type",
+      "title": "Title",
+      "notes": "Notes",
+      "date": "Date",
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "properties": {
+    "title": "Properties",
+    "subtitle": "Browse and manage your property listings.",
+    "addProperty": "Add Property",
+    "search": "Search properties...",
+    "available": "Available",
+    "pending": "Pending",
+    "sold": "Sold",
+    "table": {
+      "address": "Address",
+      "price": "Price",
+      "size": "Size",
+      "beds": "Beds",
+      "baths": "Baths",
+      "status": "Status",
+      "matches": "Matched Clients"
+    }
+  },
+  "integrations": {
+    "title": "Integrations",
+    "subtitle": "Connect your tools to streamline your workflow.",
+    "gmail": {
+      "name": "Gmail",
+      "description": "Sync your email conversations with clients. Automatically log emails as activities and never miss a follow-up.",
+      "connect": "Connect Gmail",
+      "connected": "Connected",
+      "comingSoon": "Coming Soon"
+    },
+    "calendar": {
+      "name": "Google Calendar",
+      "description": "Sync property showings and follow-up meetings directly from your calendar.",
+      "connect": "Connect Calendar",
+      "connected": "Connected",
+      "comingSoon": "Coming Soon"
+    },
+    "preview": {
+      "title": "Preview: Email Activity Feed",
+      "subtitle": "Once connected, your recent client emails will appear here."
+    }
+  },
+  "auth": {
+    "title": "Agent Portal",
+    "subtitle": "Sign in to your account",
+    "email": "Email address",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signingIn": "Signing in...",
+    "demoHint": "Demo: use any email + password to explore"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "back": "Back",
+    "noData": "No data available."
+  }
+}

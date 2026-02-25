@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --navy: #1B2B4B;
+    --gold: #C9A84C;
+    --bg: #F7F8FA;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: #1A1A2E;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .sidebar-link {
+    @apply flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium text-navy-200 hover:bg-white/10 hover:text-white transition-colors;
+  }
+
+  .sidebar-link.active {
+    @apply bg-white/15 text-white;
+  }
+
+  .stat-card {
+    @apply bg-white rounded-xl p-5 shadow-sm border border-gray-100 flex items-start gap-4;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .badge-active {
+    @apply badge bg-emerald-50 text-emerald-700;
+  }
+
+  .badge-pending {
+    @apply badge bg-amber-50 text-amber-700;
+  }
+
+  .badge-closed {
+    @apply badge bg-gray-100 text-gray-600;
+  }
+
+  .badge-available {
+    @apply badge bg-emerald-50 text-emerald-700;
+  }
+
+  .badge-sold {
+    @apply badge bg-gray-100 text-gray-600;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-4 py-2 bg-navy-700 text-white text-sm font-medium rounded-lg hover:bg-navy-800 transition-colors;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-4 py-2 bg-white text-navy-700 text-sm font-medium rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors;
+  }
+
+  .input {
+    @apply w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-navy-700/20 focus:border-navy-700 transition-colors bg-white;
+  }
+
+  .label {
+    @apply block text-xs font-medium text-gray-600 mb-1;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100;
+  }
+}

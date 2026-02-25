@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "dashboard": "仪表盘",
+    "clients": "客户管理",
+    "properties": "房源库",
+    "integrations": "集成工具",
+    "signOut": "退出登录"
+  },
+  "dashboard": {
+    "title": "仪表盘",
+    "subtitle": "欢迎回来，以下是您的工作概览。",
+    "stats": {
+      "activeClients": "活跃客户",
+      "followUpsThisWeek": "本周跟进",
+      "availableListings": "在售房源",
+      "closedDeals": "已成交"
+    },
+    "reminders": {
+      "title": "今日跟进",
+      "empty": "今天没有待跟进的客户。",
+      "call": "电话",
+      "email": "邮件",
+      "showing": "看房",
+      "offer": "报价",
+      "note": "备注"
+    },
+    "matches": {
+      "title": "智能匹配",
+      "subtitle": "根据客户偏好匹配的房源",
+      "budget": "预算",
+      "area": "区域",
+      "viewClient": "查看客户",
+      "empty": "暂无匹配结果。添加客户偏好后即可查看匹配房源。"
+    }
+  },
+  "clients": {
+    "title": "客户管理",
+    "subtitle": "管理您的客户关系，跟踪每一次互动。",
+    "addClient": "添加客户",
+    "search": "搜索客户...",
+    "filter": "筛选",
+    "all": "全部",
+    "active": "活跃",
+    "pending": "跟进中",
+    "closed": "已成交",
+    "table": {
+      "name": "姓名",
+      "contact": "联系方式",
+      "budget": "预算",
+      "area": "偏好区域",
+      "status": "状态",
+      "followUp": "下次跟进",
+      "actions": "操作"
+    },
+    "form": {
+      "addTitle": "添加新客户",
+      "editTitle": "编辑客户",
+      "name": "姓名",
+      "email": "邮箱",
+      "phone": "电话",
+      "budgetMin": "最低预算 ($)",
+      "budgetMax": "最高预算 ($)",
+      "preferredAreas": "偏好区域",
+      "areasPlaceholder": "例如：市中心、中城区、上东区",
+      "status": "状态",
+      "followUpDate": "下次跟进日期",
+      "save": "保存客户",
+      "cancel": "取消"
+    },
+    "detail": {
+      "contactInfo": "联系信息",
+      "preferences": "购房偏好",
+      "timeline": "跟进记录",
+      "addEvent": "记录活动",
+      "budget": "预算范围",
+      "areas": "偏好区域",
+      "nextFollowUp": "下次跟进"
+    },
+    "events": {
+      "type": "活动类型",
+      "title": "标题",
+      "notes": "备注",
+      "date": "日期",
+      "save": "保存",
+      "cancel": "取消"
+    }
+  },
+  "properties": {
+    "title": "房源库",
+    "subtitle": "浏览和管理您的房源列表。",
+    "addProperty": "添加房源",
+    "search": "搜索房源...",
+    "available": "在售",
+    "pending": "待定",
+    "sold": "已售",
+    "table": {
+      "address": "地址",
+      "price": "价格",
+      "size": "面积",
+      "beds": "卧室",
+      "baths": "浴室",
+      "status": "状态",
+      "matches": "匹配客户"
+    }
+  },
+  "integrations": {
+    "title": "集成工具",
+    "subtitle": "连接您的工具，提升工作效率。",
+    "gmail": {
+      "name": "Gmail",
+      "description": "同步与客户的邮件往来，自动记录为跟进活动，不错过任何一封重要邮件。",
+      "connect": "连接 Gmail",
+      "connected": "已连接",
+      "comingSoon": "即将上线"
+    },
+    "calendar": {
+      "name": "Google 日历",
+      "description": "将看房预约和跟进会议直接从日历同步到系统中。",
+      "connect": "连接日历",
+      "connected": "已连接",
+      "comingSoon": "即将上线"
+    },
+    "preview": {
+      "title": "预览：邮件动态",
+      "subtitle": "连接后，您与客户的最新邮件将显示在这里。"
+    }
+  },
+  "auth": {
+    "title": "经纪人工作台",
+    "subtitle": "登录您的账户",
+    "email": "邮箱地址",
+    "password": "密码",
+    "signIn": "登录",
+    "signingIn": "登录中...",
+    "demoHint": "演示版：输入任意邮箱和密码即可体验"
+  },
+  "common": {
+    "loading": "加载中...",
+    "save": "保存",
+    "cancel": "取消",
+    "edit": "编辑",
+    "delete": "删除",
+    "view": "查看",
+    "back": "返回",
+    "noData": "暂无数据。"
+  }
+}
