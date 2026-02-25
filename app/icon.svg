@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#1B2B4B"/>
+  <!-- Roof -->
+  <polygon points="16,5 28,16 4,16" fill="#C9A84C"/>
+  <!-- Building body -->
+  <rect x="6" y="16" width="20" height="11" fill="#C9A84C" opacity="0.9"/>
+  <!-- Door -->
+  <rect x="13" y="20" width="6" height="7" fill="#1B2B4B"/>
+  <!-- Gold chimney accent -->
+  <rect x="21" y="9" width="3" height="5" fill="#C9A84C"/>
+</svg>
